@@ -1,0 +1,32 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Build outputs
+dist/
+build/
+client/android/app/build/
+client/android/build/
+client/android/.gradle/
+client/android/local.properties
+client/ios/App/Pods/
+client/ios/App/build/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# Runtime / user data
+.uploads/*
+!.uploads/.gitkeep
+server/data/*
+!server/data/.gitkeep
+
+# Logs & OS files
+*.log
+.DS_Store
+
+# Env
+.env
+.env.local

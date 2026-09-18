@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-dayflow-dark text-white;
+  }
+}
+
+@layer utilities {
+  .pixel-border {
+    border: 2px solid #000;
+    box-shadow: 4px 4px 0px #000;
+  }
+  
+  .pixel-border-sm {
+    border: 1px solid #000;
+    box-shadow: 2px 2px 0px #000;
+  }
+}

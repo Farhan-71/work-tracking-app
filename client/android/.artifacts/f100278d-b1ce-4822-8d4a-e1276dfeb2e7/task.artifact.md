@@ -1,0 +1,5 @@
+- [x] Lift `userName` state and add persistence in `App.jsx`
+- [x] Update `HomeScreen` to display `userName` dynamically
+- [x] Update `ProfileScreen` to use global `userName` state
+- [x] Run production build and sync assets to Android
+- [x] Verify functionality
